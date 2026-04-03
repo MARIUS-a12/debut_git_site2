@@ -5,7 +5,63 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #75f7d2;
-    padding: 20px;
+    background-color: #aeefdd;
+    
     color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f3f3;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+    height: 60px;
+    box-shadow: 5px 4px 8px 2px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 20px;
+    height: auto;
+    
+}
+.section{
+    display: flex;
+    gap: 20px;
+}
+.article{
+    flex: 3;
+    background-color: #edececc3;
+    padding: 20px;
+    border-radius: 5px;
+    height: 500px;
+    box-shadow: 5px 4px 8px 2px;
+
+}
+.aside{
+    flex: 1;
+    background-color: #f5b2b2;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    height: 140px;
 }
